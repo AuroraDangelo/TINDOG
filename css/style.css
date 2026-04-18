@@ -19,14 +19,15 @@
   border-radius: 50%;
 }
 .pedigree-btn {
+  background-color: #ffc107;   /* yellow */
+  color: black;
+  border: none;
   transition: all 0.3s ease;
-  font-weight: bold;
-  border-radius: 10px;
 }
 
 .pedigree-btn:hover {
-  transform: translateY(-5px) scale(1.1);
-  background-color: pink /* strong gold */
-  color: black;
-  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.6);
+  background-color: #ff2e63;   /* RED */
+  color: white;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: none;            /* remove yellow glow */
 }

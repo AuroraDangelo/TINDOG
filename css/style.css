@@ -26,7 +26,7 @@
 
 .pedigree-btn:hover {
   transform: translateY(-5px) scale(1.1);
-  background-color: #FFD700; /* strong gold */
+  background-color: pink /* strong gold */
   color: black;
   box-shadow: 0 10px 25px rgba(255, 215, 0, 0.6);
 }
